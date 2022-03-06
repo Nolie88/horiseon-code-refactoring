@@ -7,7 +7,7 @@
 body {
   background-color: #d9dcd6;
 }
-
+/* Includes font family for header as well as BG color and type color. */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -76,6 +76,8 @@ p {
   margin-left: 20px;
 }
 
+/* consolidated code for all of benefits section */
+
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -87,10 +89,14 @@ p {
   background-color: #2589bd;
 }
 
+/* added seperate code for side panel */
+
 .side-panel {
   margin-bottom: 32px;
   color: white;
 }
+
+/* consolidated code for margin and text align for all 3 sections of benefits */
 
 .benefit-brand.benefit-cost.benefit-lead {
   margin-bottom: 10px;
@@ -102,6 +108,9 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
+
+/* consolidated SEO, ORM and SMM styling */
+
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -113,11 +122,15 @@ p {
   color: #ffffff;
 }
 
+/* Consolidated SEO, ORM and SMM image styling */
+
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
   max-height: 200px;
 }
+
+/* Consolidated SEO, ORM, and SMM header syling */
 
 .search-engine-optimization h2,
 .online-reputation-management h2,
